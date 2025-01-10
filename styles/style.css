@@ -26,12 +26,18 @@ nav {
   justify-content: space-between;
   align-items: center;
   border-radius: 10px;
-  padding: 80px 100px;
-  gap: 60px;
+  padding: 80px 60px;
+  gap: 40px;
 }
 
-.head-content{
-  
+.head-content h2{
+  font-size: 50px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.head-pic{
+  width: 450px;
 }
 
 .btn-primary {

@@ -80,7 +80,7 @@ nav h1{
 }
 
 section {
-  margin-top: 60px;
+  margin-top: 80px;
 }
 
 .section-title {
@@ -94,6 +94,13 @@ section {
   font-weight: 700;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+P{
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.7);
+  line-height: 1.3rem;
 }
 
 /* -----------main section----------------- */
@@ -138,6 +145,32 @@ section {
   background-color: rgb(247, 235, 207);
 }
 
+.btn1, .btn2, .btn3{
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  outline: none;
+}
+
+.btn1{
+  background-color: rgb(84, 144, 245);
+  margin-top: 26px;
+}
+.btn2{
+  background-color: rgb(9, 161, 92);
+  margin-top: 45px;
+}
+.btn3{
+  background-color: rgb(255, 194, 57);
+  margin-top: 45px;
+}
+
+
+
+/* caption section */
 .caption-section {
   background-image: url("../images/quote-bg.png");
   background-repeat: no-repeat;
@@ -159,6 +192,31 @@ section {
   background-color: white;
   border-radius: 10px;
   margin-top: 20px;
+}
+
+.news-logo{
+border-radius: 10px;
+}
+
+.news-title{
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.date{
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  margin: 10px 0;
+}
+
+.news-content{
+  margin-bottom: 10px;
+}
+
+.al-jazeera{
+  width: 15%;
 }
 
 /* Donte section */

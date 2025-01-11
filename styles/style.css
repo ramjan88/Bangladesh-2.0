@@ -51,6 +51,7 @@ nav h1 {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
+  color: rgb(14, 14, 14);
 }
 
 .head-content p {
@@ -107,6 +108,7 @@ section {
   font-size: 40px;
   font-weight: 700;
   margin-bottom: 30px;
+  color: rgb(14, 14, 14);
 }
 
 .card-title {
@@ -114,6 +116,7 @@ section {
   font-weight: 700;
   margin-top: 10px;
   margin-bottom: 10px;
+  color: rgb(14, 14, 14);
 }
 
 P {
@@ -245,6 +248,7 @@ P {
   font-size: 30px;
   font-weight: 700;
   margin-bottom: 10px;
+  color: rgba(14, 14, 14, 0.8);
 }
 
 .date {
@@ -252,6 +256,7 @@ P {
   flex-direction: row;
   gap: 40px;
   margin: 10px 0;
+  color: rgba(14, 14, 14, 0.7);
 }
 
 .content {
@@ -373,6 +378,7 @@ footer {
   font-size: 30px;
   font-weight: 700;
   margin-bottom: 80px;
+  color: rgb(14, 14, 14);
 }
 
 .social-site {

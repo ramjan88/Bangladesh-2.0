@@ -4,10 +4,14 @@
   box-sizing: border-box;
 }
 
+
 body {
+  background-color: #f1f1f3;
+}
+
+header, main{
   width: 1200px;
   margin: 0 auto;
-  background-color: #f1f1f3;
 }
 
 /* ---------------header section -------------*/
@@ -18,6 +22,12 @@ nav {
   align-items: center;
   width: 100%;
   height: 100px;
+}
+
+nav h1{
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(14, 14, 14);
 }
 
 .head-container {
@@ -37,13 +47,22 @@ nav {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+.head-content p{
+  font-size: 24px;
+  font-weight: 600;
+  color: rgba(14, 14, 14, 0.5);
+
+}
 .head-pic {
   width: 450px;
 }
 
 /*---------- primary section----------- */
 .btn-primary {
-  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 15px 25px;
   border-radius: 5px;
   background: rgb(0, 106, 80);
   color: white;
@@ -54,7 +73,10 @@ nav {
   padding: 10px 20px;
   border-radius: 5px;
   background-color: transparent;
-  margin-top: 20px;
+  border: 1px solid rgb(0, 106, 80);
+  color: rgb(0, 106, 80);
+  font-size: 16px;
+  font-weight: 600;
 }
 
 section {
@@ -221,5 +243,20 @@ section {
 footer {
   background-color: white;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 50px;
+  padding: 50px 160px;
+}
+
+.footer-title{
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 80px;
+}
+
+.social-site{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }

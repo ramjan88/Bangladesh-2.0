@@ -154,6 +154,11 @@ section {
   margin: 20px 0;
 }
 
+.box-container h3 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
 .donate-section input {
   display: block;
   margin: 0 auto;
@@ -165,9 +170,49 @@ section {
   margin-bottom: 20px;
 }
 
-.box1, .box2, .box3, .box4{
-  width: 20%;
+.box1,
+.box2,
+.box3,
+.box4 {
+  width: 18%;
   background-color: white;
-  padding: 40px;
+  padding: 30px;
   border-radius: 10px;
+}
+
+/* subscribe Newsletter-section */
+
+.subscribe-section {
+  background-color: rgb(198, 228, 214);
+  padding: 80px 100px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.form{
+  width: 100%;
+}
+
+.form input[type="email"] {
+  width: 60%;
+  padding: 14px 24px;
+  font-size: 16px;
+  margin: 20px 0;
+  border: none;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.form input[type="submit"]{
+  padding: 14px 24px;
+
+}
+
+
+/* -----------footer section--------- */
+
+footer {
+  background-color: white;
+  text-align: center;
+  margin-top: 30px;
 }

@@ -1,3 +1,8 @@
+.fira-sans-thin {
+  font-family: "Fira Sans", serif;
+  font-style: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -112,7 +117,7 @@ section {
 }
 
 P {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   color: rgba(14, 14, 14, 0.7);
   line-height: 1.3rem;
@@ -183,12 +188,13 @@ P {
 
 .btn1 {
   background-color: rgb(84, 144, 245);
-  margin-top: 26px;
+  margin-top: 45px;
 }
 .btn2 {
   background-color: rgb(9, 161, 92);
   margin-top: 45px;
 }
+
 .btn3 {
   background-color: rgb(255, 194, 57);
   margin-top: 45px;
@@ -198,6 +204,7 @@ P {
 .caption-section {
   background-image: url("../images/quote-bg.png");
   background-repeat: no-repeat;
+  background-position: 25px 25px;
 
   background-color: white;
   padding: 48px 24px;
@@ -283,6 +290,7 @@ P {
   height: 40px;
   background-color: white;
   border: none;
+  outline: none;
   margin-bottom: 20px;
 }
 
@@ -325,7 +333,7 @@ P {
 .form input[type="email"] {
   width: 60%;
   padding: 14px 24px;
-  font-size: 16px;
+  font-size: 14px;
   margin: 20px 0;
   border: none;
   outline: none;
@@ -347,7 +355,7 @@ P {
   transition: 1s ease-in-out;
 }
 
-.form input[type="submit"]:hover{
+.form input[type="submit"]:hover {
   background-color: rgb(9, 161, 92);
   color: gold;
 }
@@ -362,7 +370,7 @@ footer {
 }
 
 .footer-title {
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 700;
   margin-bottom: 80px;
 }
